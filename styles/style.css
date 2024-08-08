@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+.primary-color{
+    color: rgb(255, 84, 0);
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 84, 0);
+    padding: 14px 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* navbar styles */
+.navbar{
+    width: 80.3%;
+    /* width: 1178px; */
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar>i{
+    display: none;
+}
+
+.logo{
+    width: 273.63px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 56px;
+    height: 48px;
+}
+
+.logo h3{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-options{
+    width: 506px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-options li{
+    list-style: none;
+}
+
+.nav-options li a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+/* banner styles */
+.banner-container{
+    width: 80%;
+    /* width: 1170px; */
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url("../Images/Group\ 13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.banner-content h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-content p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.travel-inputs{
+    margin-top: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    
+}
+
+.travel-inputs>input, .travel-inputs>select{
+    width: 174px;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+
+.travel-inputs>input::placeholder{
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.travel-inputs>select{
+    border-right: 18px solid transparent;
+}
+
+
