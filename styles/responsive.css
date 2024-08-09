@@ -126,4 +126,52 @@
     .card-3{
         grid-column: 1;
     }
+
+
+    /* deals & discount section styles */
+    .deals-container{
+        width: 90%;
+        margin-top: 50px;
+        gap: 16px;
+    }
+
+    .deals-card-content{
+        gap: 16px;
+    }
+
+    .deals-image-1, .deals-image-2, .deals-image-3{
+        padding: 16px;
+        padding-top: 150px;
+    }
+
+    .deals-card{
+        width: 100%;
+        padding: 24px;
+    }
+
+    .trip-content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 0;
+    }
+
+    .trip-content>div:first-child{
+        grid-column: 1/ span 2;
+    }
+
+    .deals-card p>span{
+        display: none;
+    }
+
+    .deals-card h4{
+        margin-bottom: 8px;
+    }
+
+    .deals-card p{
+        margin-bottom: 12px;
+    }
+    
+    .deals-card h5{
+        margin-bottom: 16px;
+    }
 }
