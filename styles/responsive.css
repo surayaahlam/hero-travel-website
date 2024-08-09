@@ -20,7 +20,7 @@
     }
 
     .banner-content{
-        width: 80%;
+        width: 87%;
     }
 
     .banner-content h1{
@@ -38,6 +38,7 @@
         /* margin-bottom: 32px;
         margin-top: 32px; */
         margin: 32px 0;
+        gap: 16px;
     }
 
     .travel-inputs>input, .travel-inputs>select{
@@ -66,4 +67,43 @@
         height: 100%;
     }
 
+
+    /* choose your destination section styles */
+    .destination-container{
+        width: 90%;
+        margin-top: 50px;
+        gap: 16px;
+    }
+
+    .destination-text-content p{
+        margin-top: 16px;
+    }
+
+    .destination-image-content{
+        gap: 16px;
+    }
+
+    .row-1, .row-3{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+    
+    .row-2{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .row-1 img, .row-2 img, .row-3 img{
+        height: 200px;
+    }
+
+    .image-1 h5, .image-2 h5, .image-3 h5, .image-5 h5, .image-6 h5, .image-7 h5{
+        bottom: 43%;
+        left: 32%;
+    }
+
+    .image-4 h5{
+        bottom: 43%;
+        left: 25%;
+    }
 }
