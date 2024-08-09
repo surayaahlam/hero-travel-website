@@ -43,4 +43,27 @@
     .travel-inputs>input, .travel-inputs>select{
         width: auto;
     }
+
+
+    /* our popular tours section styles */
+    .popular-container{
+        width: 90%;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 24px;
+    }
+
+    .popular-text-content>div{
+        margin-top: 30px;
+    }
+
+    .popular-text-container button{
+        margin-top: 30px;
+    }
+
+    .popular-container img{
+        width: 100%;
+        height: 100%;
+    }
+
 }

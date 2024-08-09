@@ -151,3 +151,64 @@ body{
 }
 
 
+/* our popular tours section styles */
+.popular-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+
+.popular-text-content h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.popular-text-content>div{
+    margin-top: 50px;
+}
+
+.popular-text-content p{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+.popular-text-content ul{
+    margin-top: 24px;
+    list-style-position: inside;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.popular-text-content li{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    position: relative;
+    padding-left: 20px;
+    /* text-indent: -15px; */
+}
+
+.popular-text-content li::before{
+    content: "• "; 
+    position: absolute;
+    left: 0;
+}
+
+/* .popular-text-content li:first-child{
+    margin-top: 24px;
+} */
+
+.popular-text-container button{
+    margin-top: 50px;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
