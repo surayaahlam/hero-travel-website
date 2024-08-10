@@ -202,4 +202,38 @@
     .perfect-place-image-content p{
         left: 11%;
     }
+
+
+    /* newsletter subscription section styles */
+    .subscription-container{
+        width: 90%;
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .subscription-text-content{
+        padding: 24px;
+    }
+
+    .subscription-image-content img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .rectangle{
+        width: 214.02px;
+        height: 79.27px;
+        border-radius: 10.57px;
+        bottom: 13%;
+        right: 2.5%;
+    }
+
+    .rectangle p{
+        font-size: 0.99rem;
+    }
+    
+    .rectangle h5{
+        font-size: 1.321rem;
+    }
 }
