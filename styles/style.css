@@ -505,4 +505,133 @@ body{
     margin-bottom: 24px;
 }
 
+.deals-container button{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+
+/* perfect place section styles */
+.perfect-place-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 28px;
+}
+
+.perfect-place-text-content h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.perfect-place-text-content p{
+    color: rgb(90, 90, 93);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+.perfect-place-text-content li{
+    color: rgb(19, 19, 24);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 16px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.perfect-place-text-content ul{
+    margin-top: 24px;
+    list-style-position: inside;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.perfect-place-text-content li::before{
+    content: "• "; 
+    position: absolute;
+    left: 0;
+}
+
+.perfect-place-text-content button{
+    margin-top: 32px;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.perfect-place-image-content{
+    position: relative;
+}
+
+.perfect-place-image-content h5{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    bottom: 44%;
+    left: 28%;
+}
+
+.fa-ellipsis-vertical{
+    color: white;
+    position: absolute;
+    bottom: 11%;
+    right: 4%;
+}
+
+.fa-volume-xmark{
+    position: absolute;
+    color: white;
+    bottom: 11%;
+    right: 19%;
+}
+
+.fa-expand{
+    color: white;
+    position: absolute;
+    bottom: 11%;
+    right: 11%;
+}
+
+.fa-pause{
+    position: absolute;
+    color: white;
+    bottom: 11%;
+    left: 8%;color: white;
+    bottom: 11%;
+    left: 4%;
+}
+
+.perfect-place-image-content p{
+    position: absolute;
+    color: white;
+    bottom: 11%;
+    left: 10%;
+}
+
+.long{
+    position: absolute;
+    width: 579px;
+    height: 4px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 7%;
+    left: 2.7%;
+}
+
+.short{
+    position: absolute;
+    width: 105px;
+    height: 4px;
+    border-radius: 8px;
+    background-color: white;
+    bottom: 7%;
+    left: 2.7%;
+}
+
 
